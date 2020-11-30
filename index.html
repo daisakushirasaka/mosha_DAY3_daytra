@@ -1,75 +1,280 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>模写修行_デイトラ編</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-
-</head>
-<body>
-    <header>
-        <div class="menu">
-            <div class="menu-left">
-                <h2>30DAYSトライアル</h2>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>模写修行_Write編</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div class="rogo">
+                <h1><a href="#">Write</a></h1>
+                <p>書くためのテーマ</p>
             </div>
-            <div class="menu-right">
-                <div class="menu-list">
-                    <ul class="list">
-                        <li><a href="#">デイトラとは</a></li>
-                        <li><a href="#">コース一覧</a></li>
-                        <li><a href="#">お問い合わせ</a></li>
+            <ul class="gnav">
+                <li><a href="#">ホーム<i class="fas fa-angle-down menu-icon"></i></a>
+                    <ul>
+                        <li class="gnav-sub"><a href="#">→カスタマイズ</a></li>
                     </ul>
+                </li>
+                <li><a href="#">ページ<i class="fas fa-angle-down menu-icon"></i></a>
+                    <ul>
+                        <li class="gnav-sub"><a href="#">アイキャッチ画像無しのページ</a></li>
+                        <li class="gnav-sub"><a href="#">ページ (全幅テンプレート)</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">タイポグラフィー</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+            <div class="seach-wrapper">
+                <input type="search" placeholder="検索 ..." class="seach-pc-top">
+            </div>
+
+
+            <div class="sp-menu">
+                <i class="fas fa-bars" id="open"></i>
+            </div>
+        </header>
+        <div class="overlay">
+            <i class="fas fa-times" id="close"></i>
+            <nav>
+                <ul class="list-titles">
+                    <li class="list-title"><a href="#">ホーム</a>
+                        <ul>
+                            <li class="list-sub"><a href="#">→カスタマイズ</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-title"><a href="#">ページ</a>
+                        <ul>
+                            <li class="list-sub"><a href="#">アイキャッチ画像無しのページ</a></li>
+                            <li class="list-sub"><a href="#">ページ (全幅テンプレート)</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-title"><a href="#">タイポグラフィー</a></li>
+                    <li class="list-title"><a href="#">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <img src="img/cropped-nicole-honeywill-730102-unsplash.jpg" alt="メイン画像" class="main-img">
+            <div class="main-message">
+            <p>Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。
+            </p>
+        </div>
+        <!-- スマホ用の画面 -->
+        <section class="blog-sp">
+            <div class="blog-text">
+                <time><a href="#">2018年9月1日</a></time>
+                <h3><a href="#">書くためのテーマ</a></h3>
+                <p>Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。</p>
+            </div>
+            <div class="blog-text">
+                <time><a href="#">2018年3月5日</a></time>
+                <h3><a href="#">画像付きの投稿</a></h3>
+                <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。</p>
+            </div>
+            <div class="blog-text">
+                <time><a href="#">2018年3月5日</a></time>
+                <h3><a href="#">引用付きの投稿</a></h3>
+                <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ…</p>
+            </div>
+            <div class="blog-text">
+                <time><a href="#">2018年3月3日</a></time>
+                <h3><a href="#">コメント付きの投稿</a></h3>
+                <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。 しかもあとで聞くとそ…</p>
+            </div>
+            <div class="blog-text">
+                <time><a href="#">2018年3月3日</a></time>
+                <h3><a href="#">吾輩は猫である</a></h3>
+                <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。 しかもあとで聞くとそ…</p>
+            </div>
+            <div class="blog-text">
+                <time><a href="#">2018-9-1</a></time>
+                <h3><a href="#">名前はまだ無い。どこで生れたかとんと見当がつかぬ。</a></h3>
+                <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。 しかもあとで聞くとそ…</p>
+            </div>
+            <div class="next-btn">
+                <a href="#" class="btn">次へ<i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </section>
+
+        <!-- pc用の記述 -->
+        <section class="pc">
+            <div class="blog-group">
+                <div class="pc-text">
+                    <time><a href="#">2018年9月1日</a></time>
+                </div>
+                <div class="pc-text-right">
+                    <h3><a href="#">書くためのテーマ</a></h3>
+                    <p>Writeは文章を書く人のためのミニマルなWordPressテーマです。装飾を極限まで省いたデザインは、あなたの文章を主役にします。</p>
                 </div>
             </div>
-        </div>
-    </header>
-    <main class="main-top">
-        <h1>1日1題30日で<br>
-            プロのWebエンジニアになろう！
-        </h1>
-        <p>毎日設定された課題をこなすだけ！未経験から<br>
-            30日でプログラミングスキルが身につきます
-        </p>
+            <div class="blog-group">
+                <div class="pc-text">
+                    <time><a href="#">2018年3月5日</a></time>
+                </div>
+                <div class="pc-text-right">
+                    <h3><a href="#">画像付きの投稿</a></h3>
+                    <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。</p>
+                </div>
+            </div>
+            <div class="blog-group">
+                <div class="pc-text">
+                    <time><a href="#">2018年3月5日</a></time>
+                </div>
+                <div class="pc-text-right">
+                    <h3><a href="#">引用付きの投稿</a></h3>
+                    <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ…</p>
+                </div>
+            </div>
+            <div class="blog-group">
+                <div class="pc-text">
+                    <time><a href="#">2018年3月3日</a></time>
+                </div>
+                <div class="pc-text-right">
+                    <h3><a href="#">コメント付きの投稿</a></h3>
+                    <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。 しかもあとで聞くとそ…</p>
+                </div>
+            </div>
+            <div class="blog-group">
+                <div class="pc-text">
+                    <time><a href="#">2018年3月3日</a></time>
+                </div>
+                <div class="pc-text-right">
+                    <h3><a href="#">吾輩は猫である</a></h3>
+                    <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。 しかもあとで聞くとそ…</p>
+                </div>
+            </div>
+            <div class="blog-group">
+                <div class="pc-text">
+                    <time><a href="#">2018-9-1</a></time>
+                </div>
+                <div class="pc-text-right">
+                    <h3><a href="#">名前はまだ無い。どこで生れたかとんと見当がつかぬ。</a></h3>
+                    <p>吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。 しかもあとで聞くとそ…</p>
+                </div>
+            </div>
+            <ul class="btn-list">
+                <li><a href="#" class="pc-btn">1</a></li>
+                <li><a href="#" class="pc-btn">2</a></li>
+                <li><a href="#" class="pc-btn">3</a></li>
+                <li><a href="#" class="pc-btn">次へ<i class="fas fa-angle-double-right"></i></a></li>
+            </ul>
+        </section>
+        <!-- スマホ用のプロフィール部分 -->
+        <section class="profiles-sp">
+            <div class="profile">
+                <div class="parson">
+                    <img src="img/profile-m.png" alt="プロフィール画像">
+                    <div class="social-icon">
+                        <h6>John Doe</h6>
+                        <a href="https://twitter.com/home?lang=ja" target=“_blank”><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/" target=“_blank”><i class="fab fa-facebook-f"></i></a></i>
+                        <a href="https://www.instagram.com/?hl=ja" target=“_blank”><i class="fab fa-instagram"></i></a></i>
+                    </div>
+                </div>
+                <p>これはプロフィールウィジェットです。ここにはプロフィール画像・名前・自己紹介文・ソーシャルリンク（最大7つ）を設定することができます。</p>
+                
+                <div class="discription">
+                    <p class="discription-1">フッター右</p>
+                    <p class="discription-2">3つのフッター右ウィジェットエリアはフッターの右側に表示され、使用する数によって幅は自動的に調整されます。1つも使用しない場合は表示されません。</p>
+                </div>
+            </div>
+            
+            <div class="results">
+                <p class="results-title">最近の投稿</p>
+                <div class="result">
+                    <p class="text"><a href="#">書くためのテーマ</a></p>
+                    <time>2018年9月1日</time>
+                </div>
+                <div class="result">
+                    <p class="text"><a href="#">画像付きの投稿</a></p>
+                    <time>2018年3月5日</time>
+                </div>
+                <div class="result">
+                    <p class="text"><a href="#">引用付きの投稿</a></p>
+                    <time>2018年3月5日</time>
+                </div>
+            </div>
+    
+            <div class="categorys">
+                <p class="category-p">カテゴリー</p>
+                <div class="category">
+                    <p class="text"><a href="#">サンプル投稿</a></p>
+                    <p class="text"><a href="#">投稿フォーマット</a></p>
+                    <p class="text"><a href="#">普通の投稿</a></p>
+                </div>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="検索 ...">
+            </div>
+        </section>
+
+        <!-- pc用のプロフィール部分 -->
+        <section class="profiles-pc">
+            <div class="profile-pc">
+                <div class="parson">
+                    <img src="img/profile-m.png" alt="プロフィール画像">
+                    <div class="social-icon">
+                        <h6>John Doe</h6>
+                        <a href="https://twitter.com/home?lang=ja" target=“_blank”><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/" target=“_blank”><i class="fab fa-facebook-f"></i></a></i>
+                        <a href="https://www.instagram.com/?hl=ja" target=“_blank”><i class="fab fa-instagram"></i></a></i>
+                    </div>
+                </div>
+                <p>これはプロフィールウィジェットです。ここにはプロフィール画像・名前・自己紹介文・ソーシャルリンク（最大7つ）を設定することができます。</p>
+            </div>
+        
+            <div class="discription">
+                <p class="discription-1">フッター右</p>
+                <p class="discription-2">3つのフッター右ウィジェットエリアはフッターの右側に表示され、使用する数によって幅は自動的に調整されます。1つも使用しない場合は表示されません。</p>
+            </div>
+        
+            <div class="results">
+                <p class="results-title">最近の投稿</p>
+                <div class="result">
+                    <p class="text"><a href="#">書くためのテーマ</a></p>
+                    <time>2018年9月1日</time>
+                </div>
+                <div class="result">
+                    <p class="text"><a href="#">画像付きの投稿</a></p>
+                    <time>2018年3月5日</time>
+                </div>
+                <div class="result">
+                    <p class="text"><a href="#">引用付きの投稿</a></p>
+                    <time>2018年3月5日</time>
+                </div>
+            </div>
+        
+            <div class="categorys">
+                <p class="category-p">カテゴリー</p>
+                <div class="category">
+                    <p class="text"><a href="#">サンプル投稿</a></p>
+                    <p class="text"><a href="#">投稿フォーマット</a></p>
+                    <p class="text"><a href="#">普通の投稿</a></p>
+                </div>
+                <div class="pc-search">
+                    <input type="search" placeholder="検索 ...">
+                </div>
+            </div>
+        </section>
+
     </main>
-    <section class="container">
-        <h2 class="title">デイトラとは</h2>
-        <div class="about">
-            <div class="about-left">
-                <img src="/Users/DaisakuShirasaka/Desktop/practice/practice_7_デイトラ/img/about.png" alt="デイトラとは">
+    <footer>
+        <div class="footer-container">
+            <div class="social-icon-f">
+                <a href="https://twitter.com/home?lang=ja" target=“_blank”><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target=“_blank”><i class="fab fa-facebook-f"></i></a></i>
+                <a href="https://www.instagram.com/?hl=ja" target=“_blank”><i class="fab fa-instagram"></i></a></i>
             </div>
-            <div class="about-right">
-                <p>デイトラとは、無料で・迷わず楽しく学べるプログラミング学習アプリです。毎日設定された課題をこなしていくだけで、未経験から30日でプログラミングスキルが身に付きます。<br>
-                1日1題30日でプロのwebエンジニアを目指しましょう！</p>
-            </div>
+            <p>Powered by <a href="#">WordPress</a> | Theme: <a href="#">Write</a> by Themegraphy</p>
         </div>
-        <h2 class="title">コース一覧</h2>
-        <div class="corse">
-            <div class="beginner">
-                <img src="img/web_first.png" alt="初級者コース">
-                <p class="corse-text">HTML / CSS / Bootstrap</p>
-            </div>
-            <div class="intermediate">
-                <img src="img/web_second.png" alt="中級者コース">
-                <p class="corse-text">HTML / CSS / Javascript / jQuery</p>
-            </div>
-            <div class="senior">
-                <img src="img/web_third.png" alt="上級者コース">
-                <p class="corse-text">PHP / WordPress</p>
-            </div>
-        </div>
-        <div class="contact">
-            <h2 class="title">お問い合わせ</h2>
-            <p>さあ今日から30日間を始めよう！</p>
-            <div class="address">
-                <input type="text" placeholder="メールアドレス">
-            </div>
-        </div>
-        <div class="btn-p">
-            <a href="#" class="btn">無料ではじめる</a>
-        </div>
-    </section>
-    <footer>Copyright(C) 2020 東京フリーランス ALL Rights Reserved.</footer>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
-</html>
+</html> 
+
